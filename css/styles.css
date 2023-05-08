@@ -152,6 +152,8 @@
     --color-gray-2 : #e0e0e0;
     --color-gray-1 : #eff0f0;
     --color-white  : #ffffff;
+    --color-green-1: #A5C2AD;
+    --color-pink-1 : #D0AFB5;
 
     /* text
      */
@@ -3882,7 +3884,7 @@ input[type="button"].btn--primary:focus {
  *
  * ------------------------------------------------------------------- */
 .s-resume {
-    background-color: white;
+    background-color: var(--color-green-1);
     padding-top: calc(6 * var(--space));
     padding-bottom: var(--vspace-4);
 }
