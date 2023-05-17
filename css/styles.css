@@ -3516,7 +3516,7 @@ input[type="button"].btn--primary:focus {
     margin-top: var(--vspace-0_5);
     margin-right:auto;
     margin-left: var(--vspace-3);/*Elisa changed this from center to var(--vspace-3) */
-    padding-bottom: var(--vspace-1);
+    padding-bottom: var(--vspace);/*Elisa changed this from var(--vspace-1) to var(--vspace) */
     max-width: 800px;
     position: relative;
 }
