@@ -1658,7 +1658,7 @@ h5, .h5, h6, .h6 {
 }
 
 h1, .h1 {
-    font-size: var(--text-display-1);
+    font-size: var(--text-xxl);
     line-height: calc(var(--vspace-1_75) + var(--vspace-0_125));
     letter-spacing: -.015em;
 }
@@ -3216,7 +3216,7 @@ input[type="button"].btn--primary:focus {
 
 .s-header__nav ul {
     display: block;
-    text-align: center;
+    text-align: right;
     padding: 0;
     margin: 0;
 }
@@ -3491,7 +3491,7 @@ input[type="button"].btn--primary:focus {
     -ms-flex-align: center;
     -webkit-box-align: center;
     align-items: center;
-    text-align: center;
+    text-align: left; /* Elisa changed this from center to left*/
     padding-top: 16vh;
     padding-bottom: 12vh;
     position: relative;
@@ -3499,7 +3499,7 @@ input[type="button"].btn--primary:focus {
 
 .s-hero__content h1 {
     font-size: 9.8rem;
-    font-weight: 600;
+    font-weight: 300; /* Elisa changed this from 600 to 300*/
     letter-spacing: -.04em;
     line-height: 1;
     color: white;
@@ -3514,8 +3514,8 @@ input[type="button"].btn--primary:focus {
     line-height: 1.667;
     color: rgba(255, 255, 255, 0.5);
     margin-top: var(--vspace-0_5);
-    margin-right: auto;
-    margin-left: auto;
+    margin-right:auto;
+    margin-left: var(--vspace-3);/*Elisa changed this from center to var(--vspace-3) */
     padding-bottom: var(--vspace-1);
     max-width: 800px;
     position: relative;
@@ -3676,7 +3676,7 @@ input[type="button"].btn--primary:focus {
  * ------------------------------------------------------------------- */
 @media screen and (max-width: 1600px) {
     .s-hero__content h1 {
-        font-size: 9.4rem;
+        font-size: 7.4rem;/* Elisa changed the font-size for h1 for the rest of this section to 2rem smaller than before*/
     }
     .s-hero__content h3 {
         font-size: 2.2rem;
@@ -3685,17 +3685,17 @@ input[type="button"].btn--primary:focus {
 
 @media screen and (max-width: 1400px) {
     .s-hero__content h1 {
-        font-size: 8.8rem;
+        font-size: 6.8rem;
     }
     .s-hero__content h3 {
         font-size: 2rem;
-        max-width: 680px;
+        max-width: 780px; /* Elisa changed this from 680px to 780px*/
     }
 }
 
 @media screen and (max-width: 1200px) {
     .s-hero__content h1 {
-        font-size: 8.4rem;
+        font-size: 6.4rem;
     }
     .s-hero__content h3 {
         font-size: 1.9rem;
@@ -3704,7 +3704,7 @@ input[type="button"].btn--primary:focus {
 
 @media screen and (max-width: 900px) {
     .s-hero__content h1 {
-        font-size: 7.6rem;
+        font-size: 5.6rem;
     }
     .s-hero__content h3 {
         font-size: 1.8rem;
@@ -3719,22 +3719,22 @@ input[type="button"].btn--primary:focus {
         padding-top: 12vh;
     }
     .s-hero__content h1 {
-        font-size: 6.8rem;
+        font-size: 4.8rem;
     }
     .s-hero__content h3 {
-        max-width: 600px;
+        max-width: 600px; 
     }
 }
 
 @media screen and (max-width: 700px) {
     .s-hero__content h1 {
-        font-size: 6.2rem;
+        font-size: 4.2rem;
     }
 }
 
 @media screen and (max-width: 600px) {
     .s-hero__content h1 {
-        font-size: 5.8rem;
+        font-size: 3.8rem;
     }
     .s-hero__content-social {
         font-size: 2.2rem;
@@ -3743,13 +3743,13 @@ input[type="button"].btn--primary:focus {
 
 @media screen and (max-width: 500px) {
     .s-hero__content h1 {
-        font-size: 5.2rem;
+        font-size: 3.2rem;
     }
 }
 
 @media screen and (max-width: 400px) {
     .s-hero__content h1 {
-        font-size: 4.8rem;
+        font-size: 2.8rem;
     }
     .s-hero__content h3 {
         font-size: 1.7rem;
